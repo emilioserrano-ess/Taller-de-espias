@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2.5 Factorizamos polinomios | Taller de espías </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Emilio Serrano Serrano" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="geogebra-activity.css" />
+<script type="text/javascript" src="geogebra-activity.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-117"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Taller de espías</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Taller de espías</a></li>
+   <li><a href="1_qu_trabajaremos_en_este_recurso.html" class="no-ch">1. ¿Qué trabajaremos en este recurso?</a></li>
+   <li class="current-page-parent"><a href="2_maestros_del_clculo_simblico.html" class="current-page-parent daddy">2. Maestros del cálculo simbólico</a>
+   <ul>
+      <li><a href="21_sumamos_y_restamos_polinomios.html" class="no-ch">2.1 Sumamos y restamos polinomios</a></li>
+      <li><a href="22_multiplicamos_y_algo_ms.html" class="no-ch">2.2 Multiplicamos y algo más</a></li>
+      <li><a href="23_dividimos_polinomios.html" class="no-ch">2.3 Dividimos polinomios</a></li>
+      <li><a href="24_ruffini_teorema_del_resto.html" class="no-ch">2.4 Ruffini. Teorema del resto</a></li>
+      <li id="active"><a href="25_factorizamos_polinomios.html" class="active no-ch">2.5 Factorizamos polinomios</a></li>
+      <li><a href="26_fracciones_algebraicas.html" class="no-ch">2.6 Fracciones algebraicas</a></li>
+   </ul>
+   </li>
+   <li><a href="3_aprendices_de_espas.html" class="daddy">3. Aprendices de espías</a>
+   <ul class="other-section">
+      <li><a href="elegimos_el_mtodo_de_cifrado.html" class="no-ch">Elegimos el método de cifrado</a></li>
+      <li><a href="descifrando_el_mensaje_oculto.html" class="no-ch">Descifrando el mensaje oculto</a></li>
+      <li><a href="ciframos_un_mensaje.html" class="no-ch">¿Ciframos un mensaje?</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="24_ruffini_teorema_del_resto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="26_fracciones_algebraicas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2.5 Factorizamos polinomios</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_knowledge" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">1. Factorización de un polinomio</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta19_549_2" class="block iDevice_content">
+<div class="exe-text"><table border="1" style="height: 102px; width: 96.9287%; border-color: #8a5b04; background-color: #ede38a; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 10px;">
+<td style="width: 100%; height: 10px;">
+<p style="text-align: justify;">La <strong>descomposición factorial</strong> de un polinomio consiste en expresar un polinomio como producto de otros polinomios de menor grado. A la descomposición factorial de polinomios también se la denominada<strong> factorización de polinomios</strong>.</p>
+<p>     </p>
+<p style="text-align: justify;">Decimos que un polinomio es <strong>reducible</strong> si admite una factorización mediante polinomios de grado inferior al suyo. En caso contrario el polinomio será <strong>irreducible</strong>.</p>
+<ul style="list-style-type: circle;">
+<li>Está claro que los polinomios de grado 1 no pueden ser descompuestos como producto de otros dos polinomios de menor grado. Son polinomios irreducibles.</li>
+<li>Los polinomios de grado 2 que no tienen raíces reales también son irreducibles.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>    </p>
+<p>Como hemos visto, tal y como ocurre con la división entera, la división de polinomios también puede ser exacta, es decir, el resto puede ser el polinomio cero.</p>
+<p><span style="color: #0000ff;"><strong>Ejemplo:</strong></span></p>
+<p><span style="color: #0000ff;"><strong><img src="img0.18.png" width="461" height="212" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></strong></span></p>
+<p style="text-align: justify;"><span style="color: #000000;">En este caso diremos que el polinomio divisor, Q(x) divide al polinomio dividendo, P(x), y podemos escribir:</span></p>
+<p><span style="color: #000000;"><img src="img1.12.png" width="363" height="60" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: justify;"><span style="color: #000000;">o si optamos por una igualdad polinómica:</span></p>
+<p><span style="color: #000000;"><img src="img2.9.png" width="451" height="30" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: justify;"><span style="color: #000000;">   </span></p>
+<p style="text-align: justify;"><span style="color: #000000;">Observamos que el haber obtenido como resto el polinomio 0 nos permite expresar el polinomio dividendo, P(x), como producto de otros dos polinomios, los polinomios divisor y cociente, Q(x) · C(x) . Hemos alcanzado una factorización del polinomio P(x), o una descomposición en factores de P(x).</span></p>
+<p style="text-align: justify;"><span style="color: #000000;">En general, un polinomio concreto puede ser factorizado, o descompuesto, por medio de diferentes grupos de factores. Si continuamos con el polinomio P(x) anterior, una manera de obtener una descomposición alternativa consiste en, a su vez, alcanzar una factorización de alguno de los polinomios Q(x) o C( x) .</span></p>
+<p><span style="color: #0000ff;"><strong>Ejemplo:</strong></span></p>
+<p><img src="img3.8.png" width="368" height="157" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p style="text-align: justify;">En efecto, la división es exacta y ello nos lleva a la siguiente igualdad:</p>
+<p><img src="img4.4.png" width="263" height="31" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Si la trasladamos a la descomposición que teníamos de P(x):</p>
+<p><img src="img5.5.png" width="508" height="31" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id91">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">2. Raíces de un polinomio</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta91_602_2" class="block iDevice_content">
+<div class="exe-text"><table border="1" style="height: 102px; width: 96.9287%; border-color: #8a5b04; background-color: #ede38a; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="width: 100%; text-align: justify;">Dado un polinomio P(x) diremos que un número real concreto <strong>a</strong> es una <strong>raíz</strong>, o un <strong>cero</strong>, del polinomio P, si al evaluar P en x = a obtenemos el número 0, esto es, si <span style="font-size: 14pt;"><strong>P(a) = 0.</strong></span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">  </p>
+<p style="text-align: justify;"><span style="color: #0000ff;"><strong>Ejemplo:</strong></span></p>
+<p style="text-align: justify;"><span style="color: #000000;">Consideremos el polinomio <span style="font-size: 14pt;">P(x) = 2x<sup>3</sup> + 2x<sup>2</sup> - 8x -8</span>.</span></p>
+<p style="text-align: justify;"><span style="color: #000000;"><span style="font-size: 14pt;">2</span> es raíz de P(x), puesto que:</span></p>
+<p style="text-align: justify;"><span style="color: #000000; font-size: 14pt;">P(2) = 2·2<sup>3</sup> + 2·2<sup>2</sup> - 8·2 - 8 = 16 + 8 - 16 - 8 = 0</span></p>
+<p style="text-align: justify;"><span style="color: #000000; font-size: 14pt;">  </span></p>
+<table border="1" style="height: 102px; width: 96.9287%; border-color: #8a5b04; background-color: #ede38a; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="width: 100%; text-align: left;">
+<p style="text-align: justify;"><strong>Teorema del factor: </strong>Un número real concreto a es una raíz del polinomio P(x), si y solo si el polinomio x − a divide P(x). Dicho de otro modo, si y solo si el polinomio P(x) admite una descomposición factorial de la siguiente forma:</p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><strong>P(x) = (x − a) · C(x)</strong></span></p>
+<p>para cierto polinomio C( x) , el cual puede ser conocido al dividir p(x) entre x − a.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Volviendo al ejemplo anterior:</p>
+<p>Sabemos que <span style="font-size: 14pt;">2</span> es raíz del polinomio <span style="font-size: 14pt;">P(x) = 2x<sup>3</sup> + 2x<sup>2</sup> - 8x -8. Comprobemos que x - 2 divide a P(x):</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><img src="img0.19.png" width="342" height="208" alt="" /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Entonces podemos descomponer el polinomio P(x) de la forma siguiente:</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;">P(x) = 2x<sup>3</sup> + 2x<sup>2</sup> - 8x -8 = (x - 2)·(2x<sup>2</sup> + 6x +4)</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;">   </span></p>
+<table border="1" style="height: 102px; width: 96.9287%; border-color: #8a5b04; background-color: #ede38a; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="width: 100%; text-align: justify;"><strong>Colorario:</strong> Todo polinomio de grado n tiene a lo sumo n raíces reales, alguna de las cuales puede aparecer repetida entre esos no más de n números reales.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_knowledge" id="id92">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">3. Cálculo de las raíces de un polinomio</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta92_601_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 18pt; color: #993300;"><strong>Raíces enteras de un polinomio</strong></span></p>
+<table border="1" style="height: 102px; width: 96.9287%; border-color: #8a5b04; background-color: #ede38a; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="width: 100%; text-align: justify;">
+<p>Dado un polinomio cualquiera</p>
+<p style="text-align: center;"><span style="font-size: 14pt;"> a<sub>n</sub>·x<sup>n</sup> + a<sub>n-1</sub>·x<sup>n-1</sup> + ... + a<sub>2</sub>·x<sup>2</sup> +a<sub>1</sub>·x +a<sub>0</sub></span></p>
+<p style="text-align: justify;">cuyos coeficientes son todos números enteros, sus <strong>raíces enteras</strong>, si las tuviera, se encuentran necesariamente entre los divisores enteros de su término independiente a<sub>0</sub>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="color: #000000; font-size: 12pt; text-align: justify;">Determinemos qué números enteros son candidatos a ser raíces del polinomio </span><span style="font-size: 14pt;">P(x) = 2x<sup>3</sup> + 3x<sup>2</sup> - 11x - 6. </span><br /><span style="font-size: 18pt; color: #993300;"></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; color: #000000;">Tales números enteros candidatos deben ser divisores de <span style="font-size: 14pt;">-6</span> , el término independiente del polinomio. Por ello, los únicos números enteros que pueden ser raíz de ese polinomio son:</span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; color: #000000;"><span style="font-size: 14pt;">±1, ±2, ±3, ±6</span></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; color: #000000;">Puede comprobarse que los números enteros 2 y -3 son raíces; los demás no lo son.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; color: #000000;">   </span></p>
+<p><span style="font-size: 18pt; color: #993300;"><strong>Raíces racionales de un polinomio</strong></span></p>
+<table border="1" style="height: 102px; width: 96.9287%; border-color: #8a5b04; background-color: #ede38a; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="width: 100%; text-align: justify;">
+<p>Dado un polinomio cualquiera</p>
+<p style="text-align: center;"><span style="font-size: 14pt;">a<sub>n</sub>·x<sup>n</sup> + a<sub>n-1</sub>·x<sup>n-1</sup> + ... + a<sub>2</sub>·x<sup>2</sup> + a<sub>1</sub>·x +a<sub>0</sub></span></p>
+<p style="text-align: justify;">cuyos coeficientes son todos números enteros, sus raíces racionales, si las tuviera, necesariamente tienen por numerador algún divisor del término independiente, a<sub>0</sub>, y por denominador algún divisor del coeficiente del término de mayor grado, a<sub>n</sub>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><span style="font-size: 12pt; color: #000000;">Volvamos  al polinomio del ejemplo anterior, <span style="font-size: 14pt;">P(x) = 2x<sup>3</sup> + 3x<sup>2</sup> - 11x - 6</span>.<br />Los números racionales candidatos a ser raíces suyas tienen por numerador a un divisor de<span style="font-size: 14pt;"> -6</span> y por denominador a un divisor de <span style="font-size: 14pt;">2</span> . Por lo tanto, los únicos números racionales que pueden ser raíz de ese polinomio son:</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;">±1, ±2, ±3, ±6, ± 1/2, ±2/2=±1, ±3/2, ±6/2=±3</span></p>
+<p>Puede comprobarse que además de los números enteros 2 y -3, también es raíz -1/2 ; los demás no lo son.</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Demostración: raíces enteras" /></div><div class="feedback js-feedback js-hidden"><p style="text-align: center;"><img src="img0.20.png" alt="" width="862" height="336" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_knowledge" id="id93">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">4. Descomposición factorial: procedimientos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta93_602_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;">Para conseguir la descomposición factorial de un polinomio se pueden usar varios procedimientos, ya sea por separado o bien combinando varios de ellos.</p>
+<p style="text-align: justify;">Veamos algunos de los más habituales.</p>
+<div class="exe-fx exe-accordion">
+<h2>Descomposición factorial sacando factor común</h2>
+<p style="text-align: justify;">Para poder aplicar este método para hacer una descomposición factorial, todos los monomios del polinomio tienen que tener un mismo factor común.</p>
+<p style="text-align: justify;"><span style="color: #0000ff;"><strong>Ejemplo:</strong></span></p>
+<p style="text-align: justify;"><img src="img2.11.png" width="433" height="38" alt="" /></p>
+<h2>Descomposición factorial usando identidades notables</h2>
+<p style="text-align: justify;">En este caso nos hemos de dar cuenta que el polinomio que queremos factorizar, o uno de sus factores, es una de las identidades notables que ya conocemos.</p>
+<p style="text-align: justify;"><span style="color: #0000ff;"><strong>Ejemplo:</strong></span></p>
+<p style="text-align: justify;"><span style="color: #0000ff;"><strong><img src="img1.13.png" width="212" height="33" alt="" /></strong></span></p>
+<p style="text-align: justify;"><span style="color: #0000ff;"><strong><img src="img2.10.png" width="293" height="35" alt="" /></strong></span></p>
+<h2>Descomposición factorial de un trinomio de segundo grado</h2>
+<p style="text-align: justify;">Para descomponer en factores un trinomio de segundo grado, igualamos el polinomio a 0 y resolvemos la ecuación de segundo grado resultante. Si x<sub>1</sub> y x<sub>2</sub> son las raíces de dicha ecuación podemos descomponer el polinomio de la siguiente forma:</p>
+<p style="text-align: center;"><span style="font-size: 14pt;">P(x) = a·x<sup>2</sup> + b·x + c = a·(x-x<sub>1</sub>)·(x-x<sub>2</sub>)</span></p>
+<p style="text-align: justify;"><span style="color: #0000ff;"><strong>Ejemplo:</strong></span></p>
+<p style="text-align: justify;"><img src="img3.9.png" width="172" height="33" alt="" /></p>
+<p style="text-align: justify;"><img src="img4.5.png" width="134" height="30" alt="" /></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">⇒ Raíces: x<sub>1</sub> = 1, x<sub>2</sub> = -2/3</span></p>
+<p style="text-align: justify;"><img src="img5.6.png" width="259" height="30" alt="" /></p>
+<h2>Descomposición factorial aplicando la regla de Ruffini</h2>
+<p style="text-align: justify;">Para descomponer factorialmente un polinomio también podemos utilizar la regla de Ruffini de forma sucesiva buscando que los restos que vayamos obteniendo sean 0. Recuerda que en el caso de las raíces enteras éstas, en caso de existir, saldrán de los divisores del término independiente.</p>
+<p><strong><span style="color: #0000ff;">Ejemplo:</span></strong></p>
+<p><strong><span style="color: #0000ff;"><img src="img6.4.png" width="498" height="251" alt="" /></span></strong></p>
+<p><strong><span style="color: #0000ff;"><img src="img7.4.png" width="289" height="32" alt="" /></span></strong></p>
+</div>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper GeoGebraIdevice em_iDevice em_iDevice_write" id="id94">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_write.png)"><h1 class="iDeviceTitle">Actividad 10: Practica la factorización</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta94_603_2" class="block iDevice_content">
+<div class="auto-geogebra auto-geogebra-tu4cE7Ps auto-geogebra-border-003f7f language-es enableShiftDragZoom disableAutoScale auto-geogebra-scale-100"><div class="auto-geogebra-instructions"><p>Si no se visualiza correctamente sigue el siguiente <a href="https://www.geogebra.org/m/tu4cE7Ps" target="_blank" rel="noopener">enlace</a>.</p></div><p><a href="https://www.geogebra.org/m/tu4cE7Ps" target="_blank">https://www.geogebra.org/m/tu4cE7Ps (Ventana nueva)</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="24_ruffini_teorema_del_resto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="26_fracciones_algebraicas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
